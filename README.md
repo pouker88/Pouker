@@ -18,7 +18,7 @@ Group.txt https://raw.githubusercontent.com/pouker88/Pouker/refs/heads/main/Anim
 
 2 GroupRE.txt 字幕组名字替换 https://raw.githubusercontent.com/pouker88/Pouker/refs/heads/main/Anime/GroupRE.txt
 
-3 animeER.txt 常用替换 https://raw.githubusercontent.com/pouker88/Pouker/refs/heads/main/Anime/animeRE.txt
+3 animeRE.txt 常用替换 https://raw.githubusercontent.com/pouker88/Pouker/refs/heads/main/Anime/animeRE.txt
 
 4 episodegroupRE.txt 需配合剧集组 https://raw.githubusercontent.com/pouker88/Pouker/refs/heads/main/Anime/episodegroupRE.txt
 
