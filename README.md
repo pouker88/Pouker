@@ -8,7 +8,7 @@ Group.txt https://raw.githubusercontent.com/pouker88/Pouker/refs/heads/main/Anim
 
 2 GroupRE.txt 字幕组名字替换 https://raw.githubusercontent.com/pouker88/Pouker/refs/heads/main/Anime/GroupRE.txt
 
-3 anime.txt 常用替换 https://raw.githubusercontent.com/pouker88/Pouker/refs/heads/main/Anime/anime..txt
+3 anime.txt 常用替换 https://raw.githubusercontent.com/pouker88/Pouker/refs/heads/main/Anime/anime.txt
 
 4 audiences.txt 观众替换 https://raw.githubusercontent.com/pouker88/Pouker/refs/heads/main/Anime/audiences.txt
 
