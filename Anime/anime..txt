@@ -1,0 +1,89 @@
+#识别为字幕组
+(?<!-)(Disney\+|playWEB|Baha|B-Global|Crunchyroll|friDay|KKTV|ATVP|DSNP|NF|CRAMZN|Netflix|Amazon|AppleTV\+) => -\1
+#防止00v2识别异常
+\[(\d+)v\d\] => [\1]
+\b(\d+)v\d\b => \1
+#银色子弹柯南
+(\[银色子弹字幕组\]|\[SBSUB\])\[CONAN\]\[([0-9]+)\]\[WEBRIP\] => \1{[tmdbid=30983;type=tv;s=1;e=\2]}
+#海贼王
+\bOne.Piece\b => 海贼王
+#雪飘秘密的偶像公主
+(\[FLsnow.feat.PO\]|\[雪飘工作室\])\[Himitsu_no_Aipri\]\[1080P\]\[(.+?)\] => \1{[tmdbid=245204;type=tv;s=1]} episode\2
+#妖精的尾巴 百年任务
+(?i)\bFAIRY TAIL - 100 YEARS QUEST\b => {[tmdbid=248947;type=tv]}
+#宝可梦地平线 枫叶
+\[Pocket_Monsters_Horizontes\] => {[tmdbid=220150;type=tv;s=1]}
+#死神 千年血战
+(?i)\bBLEACH Sennen Kessen.hen\b => BLEACH Sennen Kessen-hen S2
+#2024冻牌
+(?i)\bTouhai\b => Touhai {[tmdbid=243452;type=tv;s=1]}
+#重来吧魔王大人S2
+Maou-sama, Retry! R => Maou-sama, Retry! S2
+#真的要结婚吗
+Kekkon suru tte, Hontou desu ka|Kekkon.Suru.tte.Hontou.desu.ka.365.Days.To.The.Wedding => Kekkon suru tte, Hontou desu ka {[tmdbid=230189;type=tv;s=1]}
+#乱马2024
+Ranma.S01E([0-9][0-9]).2024 => {[tmdbid=259140;type=tv;s=1;e=\1]}
+#魔王2099
+(?i)\bMaou.2099\b => {[tmdbid=234538;type=tv]}
+#机械臂
+(?i)\bMecha.Ude\b => {[tmdbid=210355;type=tv]}
+#飙速宅男
+(?i)\bYowamushi.Pedal.+?Grande.Road\b => Yowamushi.Pedal.S2.
+(?i)\bYowamushi.Pedal.+?New.Generation\b => Yowamushi.Pedal.S3.
+(?i)\bYowamushi.Pedal.+?Glory.Line\b => Yowamushi.Pedal.S4.
+(?i)\bYowamushi.Pedal.+?Limit.Break\b => Yowamushi.Pedal.S5.
+#夏目友人帐
+(?i)\bNatsume.Yuujinchou.+?Shichi\b => Natsume.Yuujinchou.S7.
+(?i)\bNatsume.Yuujinchou.+?Roku\b => Natsume.Yuujinchou.S6.
+(?i)\bNatsume.Yuujinchou.+?Go\b => Natsume.Yuujinchou.S5.
+(?i)\bNatsume.Yuujinchou.+?Shi\b => Natsume.Yuujinchou.S4.
+(?i)\bNatsume.Yuujinchou.+?San\b => Natsume.Yuujinchou.S3.
+(?i)\bZoku.Natsume.Yuujinchou\b => Natsume.Yuujinchou.S2.
+#青之驱魔师S2-S5
+(?i)\bAo.no.Exorcist.+?Yosuga.Hen\b => Ao.no.Exorcist{[tmdbid=38464;type=tv;s=5]}
+(?i)\bAo.no.Exorcist.+?Yuki.no.Hate.hen\b => Ao.no.Exorcist{[tmdbid=38464;type=tv;s=4]}
+(?i)\bAo.no.Exorcist.+?Shimane.Illuminati.hen\b => Ao.no.Exorcist{[tmdbid=38464;type=tv;s=3]}
+(?i)\bAo.no.Exorcist.+?Kyoto.Fujouou.hen\b => Ao.no.Exorcist{[tmdbid=38464;type=tv;s=2]}
+#浪客剑心2024
+(?i)\bRurouni Kenshin\b.+(202[0-9])|(\[orion origin\]|\[猎户发布组\]) \bRurouni Kenshin\b => tmdbid-210879.S1
+#美妙天堂#星光樂園#美妙系列
+(?i)\bidol.time.pripara\b => {[tmdbid=67627;type=tv;s=2]}
+(?i)\bPretty.Rhythm.Aurora.Dream\b => {[tmdbid=108906;type=tv;s=1]}
+(?i)\bPretty.Rhythm.Dear.My.Future\b => {[tmdbid=108906;type=tv;s=2]}
+(?i)\bPretty.Rhythm.Rainbow.Live\b => {[tmdbid=108906;type=tv;s=3]}
+(?i)\bPretty.Rhythm.All.Star.Selection\b => {[tmdbid=108906;type=tv;s=4]}
+#VCB xxxHOLiC
+\[VCB-Studio\] xxxHOLiC Shunmuki \[\d+\] => {[tmdbid=36250;type=tv;s=0]}
+\[VCB-Studio\] xxxHOLiC Rou Adayume => {[tmdbid=36250;type=tv;s=0;e=4]}
+\[VCB-Studio\] xxxHOLiC Rou => {[tmdbid=36250;type=tv;s=0;e=3]}
+\[VCB-Studio\] xxxHOLiC \[\d+\] => {[tmdbid=36250;type=tv;s=1]}
+\[VCB-Studio\] xxxHOLiC Kei \[\d+\] => {[tmdbid=36250;type=tv;s=2]}
+#暗杀教室VCB
+Ansatsu Kyoushitsu S2 Kagai Jugyo Hen \[(\d+)\]=> {[tmdbid=62110;type=tv;s=0;e=\1@+1]}
+Ansatsu Kyoushitsu \[OAD\] => {[tmdbid=439191;type=movie]}
+#为美好的世界献上祝福 vcb
+Kono.Subarashii.Sekai.ni.Shukufuku.+\b3\b.+\[(\d+)\] =>  {[tmdbid=65844;type=tv;s=3;e=\1]}
+Kono.Subarashii.Sekai.ni.Shukufuku.+\b2\b.+\[(\d+)\] =>  {[tmdbid=65844;type=tv;s=2;e=\1]}
+#灼眼的夏娜 philosophy-raws
+(?i)\bShakugan.no.Shana.II\b =>  {[tmdbid=22634;type=tv;s=2]}
+(?i)\bShakugan.no.Shana.III\b =>  {[tmdbid=22634;type=tv;s=3]}
+#暗芝居
+Yami.Shibai.+?(\d+).+?(\d+).+?^[A-Za-z]+$ => {[tmdbid=56559;type=tv;s=\1;e=\2]}
+#石纪元
+(?i)\bDr.STONE.+?New.World\b => {[tmdbid=86031;type=tv;s=3]}
+(?i)\bDr.Stone.+?Science.Future\b => {[tmdbid=86031;type=tv;s=4]}
+#搞笑漫画日和
+(?i)\bGag.Manga.Biyori.GO\b => {[tmdbid=80007;type=tv;s=5]}
+#黑执事
+(?i)\bKuroshitsuji.+?Midori.no.Majo.hen\b => {[tmdbid=50712;type=tv;s=5]}
+(?i)\bKuroshitsuji.+?Kishuku.Gakkou.hen\b => {[tmdbid=50712;type=tv;s=4]} 
+(?i)\bKuroshitsuji.+?Book.of.Circus\b => {[tmdbid=50712;type=tv;s=3]} 
+#打了300年的史莱姆，不知不觉就练到了满级 
+(?i)\bSlime.Taoshite.300.nen.+?Shiranai.Uchi.ni.Level.Max.ni.Nattemashita.+?Sono.Ni\b => {[tmdbid=99073;type=tv;s=2]} 
+#VCB政宗君的复仇
+(?i)\bMasamune.kun.no.Revenge.R\b => {[tmdbid=69295;type=tv;s=2]} 
+#搞笑漫画日和S5
+(?i)\G.+?Manga.Biyori.+?GO\b => Gag.Manga.Biyori{[tmdbid=80007;type=tv;s=5]}
+#灼眼的夏娜 philosophy-raws
+\[Shakugan no Shana\]\[OVA\] =>  {[tmdbid=22634;type=tv;s=1;e=13]}
+\[Shakugan no Shana S\]\[OVA([0-9])\] =>  {[tmdbid=22634;type=tv;s=4;e=\1]}

@@ -1,0 +1,32 @@
+#需配合本地剧集组使用 渲染词
+#物理魔法师马修
+@?{[tmdbid=204832;type=tv;e=13-24]} => {[s=2;e=EP-12]}
+#从零开始的异世界
+@?{[tmdbid=65942;type=tv;e=26-50]} => {[s=2;e=EP-25]}
+@?{[tmdbid=65942;type=tv;e=51-66]} => {[s=3;e=EP-50]}
+#我独自升级
+@?{[tmdbid=127532;type=tv;e=13-25]} => {[s=2;e=EP-12]}
+#诸神文豪野犬
+@?{[tmdbid=65931;type=tv;e=13-25]} => {[s=2;e=EP-12]}
+@?{[tmdbid=65931;type=tv;e=26-37]} => {[s=3;e=EP-25]}
+@?{[tmdbid=65931;type=tv;e=38-50]} => {[s=4;e=EP-37]}
+@?{[tmdbid=65931;type=tv;e=51-60]} => {[s=5;e=EP-50]}
+#药屋少女的呢喃
+@?{[tmdbid=220542;type=tv;e=25-48]} => {[s=2;e=EP-24]}
+#无名记忆
+@?{[tmdbid=216272;type=tv;e=13-24]} => {[s=2;e=EP-12]}
+#香格里拉边境
+@?{[tmdbid=205050;type=tv;e=26-50]} => {[s=2;e=EP-25]}
+#超超超超超喜欢你的100个女朋友
+@?{[tmdbid=223564;type=tv;e=13-24]} => {[s=2;e=EP-12]}
+#小市民系列
+@?{[tmdbid=243501;type=tv;e=11-20]} => {[s=2;e=EP-10]}
+#再见地球
+@?{[tmdbid=214587;type=tv;e=11-20]} => {[s=2;e=EP-10]}
+#防风少年
+@?{[tmdbid=223500;type=tv;e=14-25]} => {[s=2;e=EP-13]}
+#小市民
+@?{[tmdbid=243501;type=tv;e=11-22]} => {[s=2;e=EP-10]}
+#更衣人偶坠入爱河
+@?{[includes=Sono.Bisque.Doll.wa.Koi.wo.Suru&2025]} => {[s=2;tmdbid=123249;type=tv]} 
+@?{[tmdbid=123249;type=tv;e=13-24]} => {[s=2;e=EP-12]}
