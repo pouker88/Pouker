@@ -1,26 +1,26 @@
 自定义制作组
 
-Group.txt 
+Group.txt https://raw.githubusercontent.com/pouker88/Pouker/refs/heads/main/Anime/Group.txt
 
 自定义替换词
 
-1 CHSCHTRE.txt CHS替换为简体等 
+1 CHSCHTRE.txt CHS替换为简体等 https://raw.githubusercontent.com/pouker88/Pouker/refs/heads/main/Anime/CHSCHTRE.txt
 
-2 GroupRE.txt 字幕组名字替换 
+2 GroupRE.txt 字幕组名字替换 https://raw.githubusercontent.com/pouker88/Pouker/refs/heads/main/Anime/GroupRE.txt
 
-3 anime.txt 常用替换
+3 anime.txt 常用替换 https://raw.githubusercontent.com/pouker88/Pouker/refs/heads/main/Anime/anime..txt
 
 
 
 自定义渲染词
 
-1 CHSCHTRE.txt CHS替换为简体等 
+1 CHSCHTRE.txt CHS替换为简体等 https://raw.githubusercontent.com/pouker88/Pouker/refs/heads/main/Anime/CHSCHTRE.txt
 
-2 GroupRE.txt 字幕组名字替换 
+2 GroupRE.txt 字幕组名字替换 https://raw.githubusercontent.com/pouker88/Pouker/refs/heads/main/Anime/GroupRE.txt
 
-3 animeifre.txt 常用替换 
+3 animeER.txt 常用替换 https://raw.githubusercontent.com/pouker88/Pouker/refs/heads/main/Anime/animeRE.txt
 
-4 episodegroupRE.txt 需配合剧集组 
+4 episodegroupRE.txt 需配合剧集组 https://raw.githubusercontent.com/pouker88/Pouker/refs/heads/main/Anime/episodegroupRE.txt
 
 数字就是顺位 #@####
 
