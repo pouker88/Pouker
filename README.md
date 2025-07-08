@@ -10,6 +10,7 @@ Group.txt https://raw.githubusercontent.com/pouker88/Pouker/refs/heads/main/Anim
 
 3 anime.txt 常用替换 https://raw.githubusercontent.com/pouker88/Pouker/refs/heads/main/Anime/anime..txt
 
+4 audiences.txt 观众替换 https://raw.githubusercontent.com/pouker88/Pouker/refs/heads/main/Anime/audiences.txt
 
 
 自定义渲染词
