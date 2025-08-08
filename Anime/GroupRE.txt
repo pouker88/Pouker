@@ -1,9 +1,11 @@
+(?<=[\W_])DV(?=[\W_])/i => DoVi
 #流媒体平台修正
 (?i)\bBaha\b => Baha
+(?i)\bani\b => ANi
+\[ANi\].*?\/\s* => [ANi]
 (?<=[\W_])CR(?=[\W_])/i => Crunchyroll
 (?<=[\W_])NF(?=[\W_])/i => Netflix
 (?<=[\W_])AMZN(?=[\W_])/i => Amazon
-(?<=[\W_])DV(?=[\W_])/i => DoVi
 (?<=[\W_])ATVP(?=[\W_])/i => AppleTV+
 (?<=[\W_])DSNP(?=[\W_])/i => Disney+
 (?i)\byoutube\b => YouTube
@@ -102,3 +104,4 @@ Billion Meta Lab|\bBML\b => 亿次研同好会
 (?i)\bYumezukuri\b => 织梦字幕组
 (?i)\bWMSUB\b => 风车字幕组
 (?i)\bObserver Station\b => 神椿观测站
+
