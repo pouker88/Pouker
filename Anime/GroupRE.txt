@@ -1,4 +1,14 @@
+#流媒体平台修正
 (?i)\bBaha\b => Baha
+(?<=[\W_])CR(?=[\W_])/i => Crunchyroll
+(?<=[\W_])NF(?=[\W_])/i => Netflix
+(?<=[\W_])AMZN(?=[\W_])/i => Amazon
+(?<=[\W_])DV(?=[\W_])/i => DoVi
+(?<=[\W_])ATVP(?=[\W_])/i => AppleTV+
+(?<=[\W_])DSNP(?=[\W_])/i => Disney+
+(?i)\byoutube\b => YouTube
+(?=[\W_])ABMA(?=[\W_])/i => Abema
+#字幕组和压制组以及发布组修正
 jibaketa => jibaketa-粤语版
 (?i)\bPCSUB\b => 波洛咖啡厅
 (?i)\bImoeer\b => 启萌字幕组
@@ -21,7 +31,6 @@ RoxyLib => 洛琪希图书馆
 (?i)\bSumiSora\b|澄空學園 => 澄空学园
 (?i)\bYYDM-11FANS\b => 异域-11番小队
 康复重症 => 康复重症监护室字幕组
-ABMA => Abema
 (?i)\bLKSUB\b => 轻之国度字幕组
 \[Eternal\] => [永恒译制]
 xiaopie@CHDWEB => CHDWEB
@@ -81,6 +90,7 @@ Billion Meta Lab|\bBML\b => 亿次研同好会
 (?i)\bVanillaTrans\b => 香子兰翻译同好会
 (?i)\bSuzu-Kaze\b => 鈴風字幕組
 (?i)\b64bitsub\b => 六四位元字幕組
+(?i)\bYYSUB-RAW\b  => 夜莺家族
 (?i)\bTxxZ\b => 天香字幕社
 (?i)\bEMD\b => 恶魔岛字幕组
 (?i)\bTamersUnion\b => 驯兽师联盟
@@ -89,11 +99,6 @@ Billion Meta Lab|\bBML\b => 亿次研同好会
 (?i)\bMoezakuraSub\b => 萌樱字幕组
 (?i)\bYunFog\b => 云歌字幕组
 (?i)\bSTK\b => 生徒会字幕组
-(?<=[\W_])CR(?=[\W_]) => Crunchyroll
-(?<=[\W_])NF(?=[\W_]) => Netflix
-(?<=[\W_])AMZN(?=[\W_]) => Amazon
-(?<=[\W_])DV(?=[\W_]) => DoVi
-(?<=[\W_])ATVP(?=[\W_]) => AppleTV+
-(?<=[\W_])DSNP(?=[\W_]) => Disney+
 (?i)\bYumezukuri\b => 织梦字幕组
 (?i)\bWMSUB\b => 风车字幕组
+(?i)\bObserver Station\b => 神椿观测站
