@@ -7,6 +7,7 @@
 (?<=[\W_])4(?:k|K)(?=[\W_]) => 2160p
 (?<=[\W_])REMUX(?=[\W_])/i => Remux
 #删除月份新番标签
+(?<=[\[【].*?(?:组|組|sub|S(?:UB|ub|tudio)|Raw(?:|s)|社)[\]】])(?:(?:\[|【|★|)\d{1,2}月新番(?:\]|】|★|)|)[\[【](.*?)[\]】] => \1
 (?i)^[\W_](.*?(?:社|组|組|队|隊|屋|烤肉架|制作|动漫|動漫|同好會|同好会|学园|學園|Lab|Production|House|Subs?|Raws?|Studio))[\W_]+(?:[\W_]+\d{1,2}月(?:新?番|国漫)[\W_]+)?[\[|【](.*?)[\]|】] => [\1]\2
 #将英文序数词表示的季数（如 "2nd"）转换为标准化的季数格式（如 "S02"）
 (?i)\b(2(?=nd)|3(?=rd)|[4-9](?=th))[A-Za-z][A-Za-z]\b( (Season|STAGE))?(?!([ \.][A-Z]?[a-z]+){2,}\b) => S\1
@@ -107,4 +108,5 @@ Yami.Shibai.+?(\d+).+?(\d+).+?^[A-Za-z]+$ => {[tmdbid=56559;type=tv;s=\1;e=\2]}
 \[Shakugan no Shana S\]\[OVA([0-9])\] =>  {[tmdbid=22634;type=tv;s=4;e=\1]}
 #青春猪头S2 AD
 (?i)Seishun.Buta.Yarou.wa.Santa.Claus.no.Yume.wo.Minai => {[tmdbid=82739;type=tv;s=2]}
+
 
