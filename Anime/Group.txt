@@ -137,4 +137,5 @@ RLeaves
 Breeze@Sunny
 Rain@Sunny
 神椿观测站
+oSpecialCN
 
