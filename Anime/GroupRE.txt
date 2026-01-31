@@ -1,4 +1,3 @@
-(?<=[\W_])DV(?=[\W_])/i => DoVi
 #流媒体平台修正
 (?i)\bBaha\b => Baha
 (?i)\bani\b => ANi
@@ -6,6 +5,7 @@
 (?<=[\W_])CR(?=[\W_])/i => Crunchyroll
 (?<=[\W_])NF(?=[\W_])/i => Netflix
 (?<=[\W_])AMZN(?=[\W_])/i => Amazon
+(?<=[\W_])DV(?=[\W_])/i => DoVi
 (?<=[\W_])ATVP(?=[\W_])/i => AppleTV+
 (?<=[\W_])DSNP(?=[\W_])/i => Disney+
 (?i)\byoutube\b => YouTube
@@ -90,8 +90,8 @@ Billion Meta Lab|\bBML\b => 亿次研同好会
 (?i)\bheibaiSub\b => 黑白字幕组
 (?i)\bVanillaTrans\b => 香子兰翻译同好会
 (?i)\bSuzu-Kaze\b => 鈴風字幕組
-(?i)\b64bitsub\b|\b六四位元字幕組\b => 六四位元字幕组
 (?i)\bYYSUB-RAW\b  => 夜莺家族
+(?i)\b64bitsub\b|\b六四位元字幕組\b => 六四位元字幕组
 (?i)\bTxxZ\b => 天香字幕社
 (?i)\bEMD\b => 恶魔岛字幕组
 (?i)\bTamersUnion\b => 驯兽师联盟
