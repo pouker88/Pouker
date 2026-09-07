@@ -141,8 +141,12 @@ Prejudice-Studio
 #Symedia未内置的流媒体平台
 Disney\+
 ANIMAX
-playWEB
 PTerWEB
+NEST
+BEWDA
+Nix-Raws
+追放字幕组
+ExileSub
 AppleTV\+
 B-Global
 Hami
